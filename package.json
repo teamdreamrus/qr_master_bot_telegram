@@ -1,0 +1,25 @@
+{
+  "name": "qr_master_bot_telegram",
+  "version": "1.0.0",
+  "description": "read and create qr-codes for user",
+  "main": "index.js",
+  "scripts": {
+    "build": "node source/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamdreamrus/qr_master_bot_telegram.git"
+  },
+  "author": "AlexeyTop1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamdreamrus/qr_master_bot_telegram/issues"
+  },
+  "homepage": "https://github.com/teamdreamrus/qr_master_bot_telegram#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "request": "^2.88.2"
+  }
+}
